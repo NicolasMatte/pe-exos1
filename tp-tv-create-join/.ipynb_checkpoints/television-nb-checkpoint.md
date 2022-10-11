@@ -414,10 +414,6 @@ df = df[pd.notna(df.cLT2FREQ)]
 ```
 
 ```{code-cell} ipython3
-df
-```
-
-```{code-cell} ipython3
 # ceci doit afficher True
 
 # la forme après nettoyage
@@ -435,7 +431,7 @@ je vous laisse conclure le TP, il s'agit d'enregistrer nos données nettoyées d
 
 filename = "television.xlsx"
 
-df.to_excel(filename)
+# df.to_excel?
 ```
 
 je vous laisse éventuellement vérifier votre code en rechargeant sous excel le fichier produit
